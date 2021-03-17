@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>CRUD Application</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Sign Up Pages Templates
+    </title>
 </head>
 <body>
-    <div class="Input">
+    <!-- Sign Up Form-->
     <form class="Signupfrm" style="border: 1px solid #ccc;">
-        <h1>Sign Up</h1>
-        
+        <h1 style="color: whitesmoke;">Sign Up</h1>
+        <div class="Input">
         <label for="Firstname"><b>First Name</b></label>
         <input type="text" required placeholder="First Name">
 
@@ -24,18 +27,18 @@
 
         <label for="Email"><b>Email</b></label>
         <input type="text" required placeholder="Email">
-
+            <br>
         <label for="Password"><b>Password</b></label>
         <input type="password" required placeholder="Password">
-
-        <p>By clicking the button you agree to the <a href="#" target="_blank">Terms and Conditions</a></p>
-        
-   
-    <div class="Cancel">
-        <button type="button" class="Cancelbtn">Cancel</button>
-        <button type="submit" class="Signupbtn">Sign Up</button>
+        </br>
+        <p><b></b><input type="checkbox" required> By clicking the button you agree to the <a style="color: whitesmoke;" href="#" target="_blank">Terms and Conditions</a></b></p>
+        <!-- Buttons -->
+    <div class="CancelSignup">
+        <button style="background-color: #f44336;"type="button" class="Cancel" value="Cancel Button">Cancel</button>
+        <button style="background-color: #008CBA;" type="submit" class="Signup" value="Signup Button">Sign Up</button>
     </div>
-</div>
 </form>
+</div>
+
 </body>
 </html>
